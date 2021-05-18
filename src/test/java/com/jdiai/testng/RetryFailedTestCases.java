@@ -1,4 +1,4 @@
-package org.jdiai.testng;
+package com.jdiai.testng;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

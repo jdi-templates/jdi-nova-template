@@ -1,4 +1,4 @@
-package org.jdiai.test.data;
+package com.jdiai.test.data;
 
 public class TestData {
     // Place Test Data here

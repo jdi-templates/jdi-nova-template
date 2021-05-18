@@ -1,4 +1,4 @@
-package org.jdiai.testng;
+package com.jdiai.testng;
 
 import com.epam.jdi.tools.Safe;
 import org.testng.IInvokedMethod;
@@ -13,7 +13,7 @@ import java.util.Date;
 import static com.epam.jdi.tools.LinqUtils.last;
 import static java.lang.String.format;
 import static java.lang.System.currentTimeMillis;
-import static org.jdiai.JDI.driver;
+import static com.jdiai.JDI.driver;
 
 public class TestNGListener implements IInvokedMethodListener {
     private Safe<Long> start = new Safe<>(0L);

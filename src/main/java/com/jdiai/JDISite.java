@@ -1,9 +1,9 @@
-package org.jdiai;
+package com.jdiai;
 
-import org.jdiai.annotations.Site;
-import org.jdiai.annotations.Title;
-import org.jdiai.annotations.Url;
-import org.jdiai.pages.HomePage;
+import com.jdiai.annotations.Site;
+import com.jdiai.annotations.Title;
+import com.jdiai.annotations.Url;
+import com.jdiai.pages.HomePage;
 
 @Site("https://jdi-testing.github.io/jdi-light")
 public class JDISite {

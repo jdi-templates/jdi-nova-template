@@ -1,7 +1,7 @@
-package org.jdiai.pages;
+package com.jdiai.pages;
 
-import org.jdiai.JS;
-import org.jdiai.annotations.UI;
+import com.jdiai.JS;
+import com.jdiai.annotations.UI;
 
 public class HomePage {
     // Place Home page elements here

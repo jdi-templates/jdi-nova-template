@@ -1,8 +1,8 @@
-package org.jdiai.tests;
+package com.jdiai.tests;
 
-import org.jdiai.JDI;
-import org.jdiai.TestInit;
-import org.jdiai.testng.TestNGListener;
+import com.jdiai.TestInit;
+import com.jdiai.JDI;
+import com.jdiai.testng.TestNGListener;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;

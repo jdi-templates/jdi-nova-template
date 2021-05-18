@@ -1,4 +1,4 @@
-package org.jdiai.testng;
+package com.jdiai.testng;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;

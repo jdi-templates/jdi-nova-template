@@ -1,4 +1,4 @@
-package org.jdiai.states;
+package com.jdiai.states;
 
 public class States {
     // Place test preconditions here

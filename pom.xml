@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tests-e2e-no-page-objects</artifactId>
-    <name>Tests: JDI E2E without Page Objects</name>
-    <groupId>org.jdiai</groupId>
+    <artifactId>jdi-nova-template</artifactId>
+    <name>TO RENAME: JDI Nova Project Template</name>
+    <groupId>com.jdiai</groupId>
     <version>0.9.0</version>
     <packaging>jar</packaging>
 
@@ -17,9 +17,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.epam.jdi</groupId>
-            <artifactId>jdi-nova-BETA</artifactId>
-            <version>0.9.0</version>
+            <groupId>com.jdiai</groupId>
+            <artifactId>jdi-nova</artifactId>
+            <version>0.9.1</version>
         </dependency>
 
         <dependency>

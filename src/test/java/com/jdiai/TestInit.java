@@ -1,11 +1,11 @@
-package org.jdiai;
+package com.jdiai;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import static org.jdiai.JDI.openSite;
-import static org.jdiai.LoggerTypes.SLF4J;
-import static org.jdiai.jswraper.DriverManager.killDrivers;
+import static com.jdiai.JDI.openSite;
+import static com.jdiai.LoggerTypes.SLF4J;
+import static com.jdiai.jswraper.DriverManager.killDrivers;
 
 public interface TestInit {
 
