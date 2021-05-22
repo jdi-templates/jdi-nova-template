@@ -13,7 +13,7 @@ public interface TestInit {
     default void setUp() {
         killDrivers();
         JDI.LOGGER_TYPE = SLF4J;
-        openSite(JDISite.class);
+        openSite(MySite.class);
     }
 
     @AfterSuite(alwaysRun = true)

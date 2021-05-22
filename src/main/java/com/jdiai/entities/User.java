@@ -1,8 +1,11 @@
 package com.jdiai.entities;
 
 import com.epam.jdi.tools.DataClass;
+import com.jdiai.annotations.UI;
 
-// public class User extends DataClass<User> {
-//     public String name, password;
-//
-// }
+// TODO: REMOVE Use your business entities here
+public class User extends DataClass<User> {
+    @UI("#name") public String name;
+    @UI("#password") public String password;
+
+}
