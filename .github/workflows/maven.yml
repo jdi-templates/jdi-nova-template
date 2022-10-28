@@ -7,9 +7,9 @@ env:
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
         run: mvn clean install -DskipTests -ntp
 
       - name: Start Selenoid
-        uses: n-ton4/selenoid-github-action@master
+        uses: n-ton4/selenoid-github-action@main
         id: start-selenoid
         if: github.event_name == 'pull_request' && success()
         with:
@@ -63,7 +63,7 @@ jobs:
           path: gh-pages
 
       - name: Generate Allure report
-        uses: simple-elf/allure-report-action@master
+        uses: simple-elf/allure-report-action@main
         if: github.event_name == 'pull_request' && always()
         with:
           allure_results: target/allure-results
@@ -71,7 +71,7 @@ jobs:
           allure_history: allure-history
 
       - name: Upload Allure report
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@main
         if: github.event_name == 'pull_request' && failure()
         with:
           name: Allure report
