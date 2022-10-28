@@ -1,6 +1,6 @@
 package com.jdiai.testng;
 
-import com.epam.jdi.tools.Safe;
+import  com.jdiai.tools.Safe;
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
 import org.testng.ITestNGMethod;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static com.epam.jdi.tools.LinqUtils.last;
+import static  com.jdiai.tools.LinqUtils.last;
 import static java.lang.String.format;
 import static java.lang.System.currentTimeMillis;
 import static com.jdiai.JDI.driver;
