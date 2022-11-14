@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.jdiai</groupId>
             <artifactId>jdi-nova</artifactId>
-            <version>1.1.8</version>
+            <version>LATEST</version>
         </dependency>
 
         <dependency>
