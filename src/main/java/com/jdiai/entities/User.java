@@ -1,6 +1,6 @@
 package com.jdiai.entities;
 
-import com.epam.jdi.tools.DataClass;
+import com.jdiai.tools.DataClass;
 import com.jdiai.annotations.UI;
 
 // TODO: REMOVE Use your business entities here
