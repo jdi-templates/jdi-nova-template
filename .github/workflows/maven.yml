@@ -6,11 +6,11 @@ env:
 on:
   push:
     branches:
-      - master
+      - main
 
   pull_request:
     branches:
-      - master
+      - main
   release:
     types: # This configuration does not affect the page_build event above
       - created
